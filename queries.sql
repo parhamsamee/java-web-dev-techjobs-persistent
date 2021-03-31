@@ -1,5 +1,5 @@
 ## Part 1: Test it with SQL
-SELECT column_data, data_type
+SELECT column_name, data_type
 FROM information_schema.columns
 WHERE table_schema = 'techjobs'
 AND table_name = 'job';
