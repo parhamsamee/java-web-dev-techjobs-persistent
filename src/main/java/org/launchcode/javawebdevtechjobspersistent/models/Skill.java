@@ -12,6 +12,7 @@ public class Skill extends AbstractEntity {
     //constructors
 
     public Skill(String description) {
+        super();
         this.description = description;
     }
         //no-arg constructor
